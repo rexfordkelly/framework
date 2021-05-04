@@ -692,7 +692,7 @@ trait EnumeratesValues
     }
 
     /**
-     * Pass the collection to the given callback and return the result.
+     * Pass this collection to a given callback and return those results.
      *
      * @param  callable  $callback
      * @return mixed
@@ -714,8 +714,8 @@ trait EnumeratesValues
     }
 
     /**
-     * Pass the collection to the given callback and then return it.
-     *
+     * Passes a clone of this collection to a given callback. Returns the initial collection.
+     * 
      * @param  callable  $callback
      * @return $this
      */
